@@ -9,7 +9,7 @@ module.exports = (query, request) => {
           download: 0,
           end: 'playend',
           id: ele.id,
-          sourceId: ele.sourceid,
+          sourceId: ele.sourceId,
           time: ele.time || 240,
           type: 'song',
           wifi: 0,
